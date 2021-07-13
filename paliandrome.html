@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let s="madam give samosa for my mom and dad";
+        s=s+" ";
+        var word="";
+        for(k of s){
+            if(k!=" "){
+             word=word+k;
+             }
+         else{
+        rev=word.split("").reverse().join("");
+        if(rev==word){
+        console.log(word);
+         }
+        word=""
+        
+        }
+    } 
+    </script>
+    
+</body>
+</html>
